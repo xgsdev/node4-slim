@@ -8,6 +8,6 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 # Install npm packages for my webdev env
-RUN npm install -g bower gulp git npm-run-all cpy-cli node-mv
+RUN npm install -g bower gulp npm-run-all cpy-cli node-mv
 RUN npm install -g jade stylus nib axis-css autoprefixer-stylus rupture jeet
 RUN npm install -g nodemon localtunnel browser-sync requirejs eslint
